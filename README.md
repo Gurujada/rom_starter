@@ -12,13 +12,13 @@ Here are the basic changes that are done from the standard "rails new"
 * The gem `dotenv-rails` is added. The database configuration is added in the file .env.development
 * The test database configuration is added in the file .env.test
 * Added a line `rom/sql/rake_task`. This line will enable rake tasks for generating and running migrations from `rom-sql`
-#How to Use
+# How to Use
 
 * Clone the repo
 * Change database configurations including username and password in `.env.development` and `.env.test` 
 * In `application.rb` change the  module name from `RomStarter` to your application name
-#License
+# License
 MIT License. Feel free to use the work if it is useful in anyway for you.
-#Goal
+# Goal
 Make an enterprise-ready application skeleton to give a headstart for developers in Enterprise Application Development. 
-I thank @radar for the inspiration. 
+I thank [@radar](https://github.com/radar) for the inspiration. 
